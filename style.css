@@ -654,7 +654,7 @@ footer .social a:hover {
 }
 
 /*large devices: 1023 > */
-@media (min-width: 1023px) {
+@media (min-width: 1000px) {
   nav .menu {
     opacity: 1;
     visibility: visible;
@@ -699,16 +699,6 @@ footer .social a:hover {
   #about .container {
     margin: 0 auto;
     grid-auto-flow: column;
-  }
-
-  /* services */
-  .cards {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .card {
-    padding-left: 1rem;
-    padding-right: 1rem;
   }
 
   /* testimonials */
